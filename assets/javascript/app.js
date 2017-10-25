@@ -1,13 +1,24 @@
-// Initialize Firebase
-var config = {
-    apiKey: "AIzaSyDox-2LEnf3R_PBhtDUZQuugyZi13_BozI",
-    authDomain: "traintime-30c09.firebaseapp.com",
-    databaseURL: "https://traintime-30c09.firebaseio.com",
-    projectId: "traintime-30c09",
-    storageBucket: "traintime-30c09.appspot.com",
-    messagingSenderId: "760211434318"
-};
+// // Initialize Firebase
+// var config = {
+//     apiKey: "AIzaSyDox-2LEnf3R_PBhtDUZQuugyZi13_BozI",
+//     authDomain: "traintime-30c09.firebaseapp.com",
+//     databaseURL: "https://traintime-30c09.firebaseio.com",
+//     projectId: "traintime-30c09",
+//     storageBucket: "traintime-30c09.appspot.com",
+//     messagingSenderId: "760211434318"
+// };
 
+// firebase.initializeApp(config);
+
+// Initialize Firebase ver 2.0
+var config = {
+    apiKey: "AIzaSyCjeKg8pnlzuNMmkFHJXWXKlqcRiFahRZQ",
+    authDomain: "traintake2.firebaseapp.com",
+    databaseURL: "https://traintake2.firebaseio.com",
+    projectId: "traintake2",
+    storageBucket: "traintake2.appspot.com",
+    messagingSenderId: "207933808421"
+};
 firebase.initializeApp(config);
 
 var database = firebase.database();
