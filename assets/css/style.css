@@ -1,0 +1,15 @@
+body {
+    margin-right: 25px;
+    margin-left: 25px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.jumbotron{
+
+    background-color: rgb(150, 85, 0);
+    color: white;
+}
+
+form {
+    margin: 15px;
+}
