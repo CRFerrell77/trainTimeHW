@@ -66,7 +66,7 @@ function submitButton(ev){
 database.ref().on("value", function(childSnapshot){
     //console.log(childSnapshot.val());
     var trains = childSnapshot.val();
-    $("#employees").empty();
+    $("#trains").empty();
 
     for(var i in trains){
         setTable(trains[i]);
